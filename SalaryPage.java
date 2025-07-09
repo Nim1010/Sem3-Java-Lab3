@@ -14,9 +14,9 @@ public class SalaryPage {
     private TableView<Salary> tableView;
     private ObservableList<Salary> salaryList;
 
-    private final String DB_URL = "jdbc:mysql://localhost:3306/hrdb"; // change if needed
-    private final String USER = "root";  // change if needed
-    private final String PASSWORD = "password"; // change if needed
+    private final String DB_URL = "jdbc:mysql://localhost:3306/hrdb";
+    private final String USER = "root";
+    private final String PASSWORD = "password";
 
     public SalaryPage(Stage stage) {
         Label header = new Label("Salary Management");
